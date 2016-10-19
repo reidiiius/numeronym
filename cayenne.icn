@@ -1,0 +1,26 @@
+# icon 
+
+link marigold, papaya
+
+procedure main()
+
+  local catalogue, epithet;
+
+  catalogue := list_scales();
+
+    write();
+
+  epithet := "j23";
+
+    write( "\n\t" || epithet );
+    display_guitar( catalogue[ epithet ] );
+
+  epithet := "k12";
+
+    write( "\n\t" || epithet );
+    display_guitar( catalogue[ epithet ] );
+
+    write("\n");
+
+end
+

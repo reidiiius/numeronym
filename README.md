@@ -12,7 +12,7 @@ Chrestomathy
 ### Usage
 command line
 
-    icont -u cayenne.icn marigold.icn papaya.icn -x
+    icont -us cayenne.icn marigold.icn papaya.icn -x
 
 or produce ucode files with -c option
 

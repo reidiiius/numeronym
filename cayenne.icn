@@ -1,23 +1,25 @@
-# icon 
+#!/usr/bin/env icon
 
 link marigold, papaya
 
 procedure main()
 
-  local catalogue, epithet;
+  local stamp, catalogue, epithet;
+
+  stamp := "-v" || &date || "-" || &clock;
 
   catalogue := list_scales();
-
+  
     write();
 
   epithet := "j23";
 
-    write( "\n\t" || epithet );
+    write( "\n\t" || epithet || stamp );
     display_guitar( catalogue[ epithet ] );
 
   epithet := "k12";
 
-    write( "\n\t" || epithet );
+    write( "\n\t" || epithet || stamp );
     display_guitar( catalogue[ epithet ] );
 
     write("\n");

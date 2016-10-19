@@ -12,12 +12,14 @@ procedure main()
   
     write();
 
-  epithet := "j23";
+  epithet := "j3k6";
 
     write( "\n\t" || epithet || stamp );
     display_guitar( catalogue[ epithet ] );
 
-  epithet := "k12";
+    write();
+
+  epithet := "k1j5";
 
     write( "\n\t" || epithet || stamp );
     display_guitar( catalogue[ epithet ] );
